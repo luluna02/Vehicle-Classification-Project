@@ -1,0 +1,95 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-display: fallback;
+	background: #F7FDF2;
+	background-size: cover;
+	background-position: center;
+	line-height: 1.6;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height:100vh;
+
+
+
+ }
+#file {
+    display: none;
+}
+
+.upload-container {
+    max-width: 700px;
+	margin:2rem;
+	padding: 24px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+	border-radius: 14px;
+	background-color: #D4EBCC;
+}
+
+.buttons-container {
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.form-title{
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 39px;
+color: #4F6A3E;
+margin-bottom: 25px;
+
+}
+
+.upload-label{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+color: #FFFFFF;
+cursor: pointer;
+padding: 12px 25px;
+border-radius: 24px;
+background-color:#4F6A3E ;
+}
+
+#submit {
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+color: #FFFFFF;
+cursor: pointer;
+padding: 12px 25px;
+border-radius: 24px;
+background-color:#4F6A3E ;
+border-width: 0;
+}
+.selected-img{
+	width:224px;
+	height: 224px;
+	margin-top: 24px;
+	margin-left: 45px;
+	margin-bottom: 10px;
+	border: white solid 5px;
+	border-style:double;
+}
+.prediction {
+font-style: normal;
+text-align: center;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+color: #FFFFFF;
+padding: 12px 25px;
+border-radius: 24px;
+background-color:#4F6A3E ;	
+}
+

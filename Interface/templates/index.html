@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Car Prediction</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="preload" as="font">
+<link href="/static/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<head>  
+    <title>upload the file : GFG</title>  
+</head>  
+<body>  
+   <img src="/static/logo.png" width="500" height="auto">
+  
+        <form method = "post" class="upload-container" enctype="multipart/form-data">  
+            <span class="form-title">Please upload the image</span>
+        {{form.hidden_tag()}}
+        
+        <div class="buttons-container">
+            <label class="upload-label" for="file">Upload Image</label>
+             {{form.file()}}
+        {{form.submit()}}
+        </div>
+        <div class="selected-img">
+        {% if value %}
+        <img  src="{{ url_for('uploaded_file', filename=filename) }}" width="224" height="224">
+        </div>
+        <p class="prediction">
+            Prediction: {{ value }}
+        </p>
+    {% endif %}
+    </form>  
+
+    
+   
+</body>  
+</html>
