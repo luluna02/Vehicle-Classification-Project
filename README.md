@@ -18,3 +18,8 @@ The Random Forest model was selected based on its simplicity and ability to hand
 Evaluation of the model was done using accuracy as the primary metric since the data was perfectly balanced. The Random Forest model achieved an accuracy of 87.6% on the test set, demonstrating its effectiveness in classifying vehicle images. We also used a confusion matrix to analyze specific classes where the model may have struggled.
 
 To showcase the model, we developed a web application using Flask and HTML/CSS. Users can upload an image, and the model predicts the type of vehicle. The application handles file upload, preprocessing, model prediction, and serves the uploaded files to the user.
+
+
+![alt text](https://github.com/luluna02/Vehicle-Classification-Project/blob/main/Interface/Interface.png)
+
+
